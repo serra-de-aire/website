@@ -45,4 +45,19 @@ module.exports = {
     // basically, it causes issues and TS does those checks so it's redundant
     // https://typescript-eslint.io/linting/troubleshooting#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
   },
+  ignorePatterns: [
+    ".DS_Store",
+    "node_modules",
+    "/build",
+    "/.svelte-kit",
+    "/package",
+    ".env",
+    ".env.*",
+    "!.env.example",
+    "pnpm-lock.yaml",
+    "package-lock.json",
+    "yarn.lock",
+    "temp.js",
+    "config/*",
+  ],
 }

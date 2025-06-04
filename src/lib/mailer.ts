@@ -127,6 +127,7 @@ export const sendTemplatedEmail = async ({
     const template = handlebars.compile(textTemplate)
     plaintextBody = template(template_properties)
   } catch (e) {
+    console.error("An error occurred:", e)
     // ignore, plaintextBody is optional
     plaintextBody = undefined
   }
@@ -139,6 +140,7 @@ export const sendTemplatedEmail = async ({
     const template = handlebars.compile(htmlTemplate)
     htmlBody = template(template_properties)
   } catch (e) {
+    console.error("An error occurred:", e)
     // ignore, htmlBody is optional
     htmlBody = undefined
   }

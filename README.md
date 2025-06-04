@@ -150,11 +150,11 @@ On your development machine:
 ```
 git pull [Your Repo Created Above]
 cd CMSaasStarter ## or your repo name if different
-npm install
+pnpm install
 ## Create an env file. You'll replace the values in this in later steps.
 cp .env.example .env.local
 ## Run the project locally in dev mode, and launch the browser
-npm run dev -- --open
+pnpm run dev -- --open
 ```
 
 **Note:** some features won't work until you complete the rest of the setup steps below!
@@ -193,6 +193,12 @@ To catch build, formatting, linting and test issues before you commit changes, w
 # Run standard checks before committing
 cd "$(dirname "$0")"
 sh ../../checks.sh
+```
+
+prettier:
+
+```
+console.error('An error occurred:', e);
 ```
 
 ### Disabling Developer Tools

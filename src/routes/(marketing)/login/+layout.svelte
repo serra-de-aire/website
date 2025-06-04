@@ -10,6 +10,7 @@
       .resolvedOptions()
       .timeZone.startsWith("Europe/")
   } catch (e) {
+    console.error("An error occurred:", e)
     /* continue */
   }
 </script>
