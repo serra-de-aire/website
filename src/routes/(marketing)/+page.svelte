@@ -235,29 +235,33 @@
       <div
         class="text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-accent mb-3 md:mb-7 pb-1"
       >
-        SaaS Starter Demo
+        API-first Intelligence
       </div>
 
       <div
         class="text-4xl md:text-6xl font-bold px-2"
         style="line-height: 1.2;"
       >
-        The
+        <span>Requirements</span>
+        <br />
+        made
         <span
           class="underline decoration-secondary decoration-4 md:decoration-[6px]"
-          >open source</span
-        >,
-        <span
-          class="underline decoration-secondary decoration-4 md:decoration-[6px]"
-          >fast</span
-        >, and
-        <span
-          class="underline decoration-secondary decoration-4 md:decoration-[6px]"
-          >free to host</span
+          >easy</span
         >
-        <span> SaaS template</span>
+        and
+        <span
+          class="underline decoration-secondary decoration-4 md:decoration-[6px]"
+          >open</span
+        >
+        for
+        <span
+          class="underline decoration-secondary decoration-4 md:decoration-[6px]"
+          >AI</span
+        >
+        era
       </div>
-      <div class="mt-6 md:mt-10 text-sm md:text-lg">
+      <div style="display:none" class="mt-6 md:mt-10 text-sm md:text-lg">
         Built with <a
           href="https://kit.svelte.dev"
           class="link font-bold"
@@ -284,12 +288,10 @@
       <div
         class="mt-6 md:mt-4 flex flex-row flex-wrap gap-4 place-content-center"
       >
-        <a href="https://github.com/CriticalMoments/CMSaasStarter">
+        <a href="https://github.com/serra-de-aire">
           <button class="btn btn-primary px-6">★ us on Github</button>
         </a>
-        <a
-          href="https://github.com/CriticalMoments/CMSaasStarter/tree/main#saas-starter"
-        >
+        <a style="display:none" href="https://github.com/serra-de-aire">
           <button class="btn btn-outline btn-primary px-6">Read the Docs</button
           >
         </a>
