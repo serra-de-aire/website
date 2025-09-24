@@ -14,24 +14,13 @@ export type BlogPost = {
 // Update this list with the actual blog post list
 // Create a page in the "(posts)" directory for each entry
 const blogPosts: BlogPost[] = [
-  // {
-  //   title: "How we built a beautiful 41kb SaaS website with this template",
-  //   description: "How to use this template you to bootstrap your own site.",
-  //   link: "/blog/how_we_built_our_41kb_saas_website",
-  //   date: "2024-03-10",
-  // },
+
   {
     title: "Why requirements matter more than you might think",
     description: "Framing the problem is key",
     link: "/blog/why-requirements-matter-more-than-you-might-think",
     date: "2025-9-23",
   },
-  // {
-  //   title: "Example Blog Post",
-  //   description: "A sample blog post, showing our blog engine",
-  //   link: "/blog/example_blog_post",
-  //   date: "2023-03-13",
-  // },
 ]
 
 // Parse post dates from strings to Date objects
