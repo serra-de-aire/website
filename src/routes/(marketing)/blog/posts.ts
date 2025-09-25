@@ -14,7 +14,6 @@ export type BlogPost = {
 // Update this list with the actual blog post list
 // Create a page in the "(posts)" directory for each entry
 const blogPosts: BlogPost[] = [
-
   {
     title: "Why requirements matter more than you might think",
     description: "Framing the problem is key",
