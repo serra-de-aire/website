@@ -55,14 +55,14 @@
 
 <div class="min-h-[70vh] pb-8 pt-[5vh] px-4">
   <h1 class="text-3xl font-bold text-center">Pricing</h1>
-  <h2 class="text-xl text-center text-slate-500 mt-1 pb-3">
+  <h2 style="display:none" class="text-xl text-center text-slate-500 mt-1 pb-3">
     Totally free, scale to millions of users
   </h2>
 
   <div class="w-full my-8">
     <PricingModule callToAction="Get Started" highlightedPlanId="pro" />
-    <h1 class="text-2xl font-bold text-center mt-24">Pricing FAQ</h1>
-    <div class="flex place-content-center">
+    <h1 style="display:none" class="text-2xl font-bold text-center mt-24">Pricing FAQ</h1>
+    <div style="display:none" class="flex place-content-center">
       <div class="join join-vertical max-w-xl py-6 mx-auto">
         <div class="collapse collapse-arrow join-item border border-primary">
           <input type="radio" name="faq-accordion" />
@@ -142,12 +142,12 @@
       </defs>
     </svg>
 
-    <h1 class="text-2xl font-bold text-center mt-16">Plan Features</h1>
-    <h2 class="text-xl text-center text-slate-500 mt-1 pb-3">
+    <h1 style="display:none" class="text-2xl font-bold text-center mt-16">Plan Features</h1>
+    <h2 style="display:none" class="text-xl text-center text-slate-500 mt-1 pb-3">
       Example feature table
     </h2>
 
-    <div class="overflow-visible mx-auto max-w-xl mt-4">
+    <div style="display:none" class="overflow-visible mx-auto max-w-xl mt-4">
       <table class="table">
         <thead
           class="text-lg sticky top-0 bg-base-100 bg-opacity-50 z-10 backdrop-blur-sm"
