@@ -61,7 +61,9 @@
 
   <div class="w-full my-8">
     <PricingModule callToAction="Get Started" highlightedPlanId="pro" />
-    <h1 style="display:none" class="text-2xl font-bold text-center mt-24">Pricing FAQ</h1>
+    <h1 style="display:none" class="text-2xl font-bold text-center mt-24">
+      Pricing FAQ
+    </h1>
     <div style="display:none" class="flex place-content-center">
       <div class="join join-vertical max-w-xl py-6 mx-auto">
         <div class="collapse collapse-arrow join-item border border-primary">
@@ -142,8 +144,13 @@
       </defs>
     </svg>
 
-    <h1 style="display:none" class="text-2xl font-bold text-center mt-16">Plan Features</h1>
-    <h2 style="display:none" class="text-xl text-center text-slate-500 mt-1 pb-3">
+    <h1 style="display:none" class="text-2xl font-bold text-center mt-16">
+      Plan Features
+    </h1>
+    <h2
+      style="display:none"
+      class="text-xl text-center text-slate-500 mt-1 pb-3"
+    >
       Example feature table
     </h2>
 

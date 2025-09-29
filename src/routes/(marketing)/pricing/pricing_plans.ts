@@ -13,7 +13,7 @@ export const pricingPlans = [
       "Unlimited repositories requirements tracking",
       "Direct support contact with founding team",
     ],
-  }
+  },
   // {
   //   id: "free",
   //   name: "Free",

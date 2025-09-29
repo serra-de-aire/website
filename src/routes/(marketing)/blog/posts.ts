@@ -20,6 +20,12 @@ const blogPosts: BlogPost[] = [
     link: "/blog/why-requirements-matter-more-than-you-might-think",
     date: "2025-9-23",
   },
+  {
+    title: "Back to Agile foundations",
+    description: "Recapping scope and requirements related principles",
+    link: "/blog/back-to-agile-foundations",
+    date: "2025-9-29",
+  },
 ]
 
 // Parse post dates from strings to Date objects
